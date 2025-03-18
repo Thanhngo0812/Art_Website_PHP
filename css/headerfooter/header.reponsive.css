@@ -126,6 +126,10 @@
   .headerRight {
     gap: 20px;
   }
+
+  .headerRight--options {
+    display: none;
+  }
 }
 
 @media (min-width: 1650px) {
@@ -136,4 +140,17 @@
   .searchInputContainer i {
     right: 110px;
   }
+  .headerRight--options {
+    display: none;
+  }
+ 
 }
+
+@media (min-width: 1150px) {
+
+  .headerRight--options {
+    display: none;
+  }
+ 
+}
+

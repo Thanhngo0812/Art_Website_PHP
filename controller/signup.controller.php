@@ -13,7 +13,7 @@ if (isset($_POST['usernameLogin']) && isset($_POST['passwordLogin'])) {
     $_SESSION['username'] = $user;
   }
   echo json_encode($loginResult);
-  // echo json_encode('bắc kì');
+  
 }
 
 // Kiểm tra nếu có dữ liệu gửi từ Ajax (REGISTER)
